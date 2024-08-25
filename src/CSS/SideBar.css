@@ -1,0 +1,57 @@
+#sidebarrr {
+  width: 250px;
+  height: 100vh;
+  background: #EFF6FE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+ 
+   /* Ensure it stays below the navbar */
+}
+
+#sidebarrr header {
+  background: #EFF6FE;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+ 
+}
+
+#sidebarrr .navv {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  
+}
+
+#sidebarrr .navv li {
+  width: 100%;
+}
+
+#sidebarrr .navv a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s, color 0.3s;
+ 
+}
+
+#sidebarrr .navv a:hover {
+  background: #2775DD;
+  color: #fff;
+  
+  border-radius: 15px;
+}
+
+#sidebarrr .navv a i {
+  margin-right: 10px;
+}
